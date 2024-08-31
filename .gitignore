@@ -1,0 +1,116 @@
+# This .gitignore file is for Unity projects.
+
+# Ignore the following directories and files:
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Avoid uploading Auto-Generated UI files
+/Assets/ThirdPartyAssets/**/Scripts/Editor/**/.*.meta
+
+# Ignore the Unity-generated metadata files
+/Assets/**/*.meta
+
+# Ignore the crash reports
+*.pidb
+*.log
+*.svd
+*.pdb
+*.pidb
+*.opendb
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.unityproj
+*.booproj
+*.svd
+*.sln
+
+# Ignore Build and Cache directories
+/Builds/
+/[Ll]ibrary/Artifacts/
+/[Ll]ibrary/PlayerDataCache/
+/[Ll]ibrary/ScriptAssemblies/
+/[Ll]ibrary/ShaderCache/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+.vscode/settings.json
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.unityproj
+*.booproj
+*.sln
+
+# Ignore gradle generated files
+*.apk
+*.aab
+.gradle
+/gradle-wrapper.jar
+/gradle/
+*.log
+
+# Ignore Mac specific files
+*.DS_Store
+
+# Ignore Windows specific files
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore Unity specific temporary files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+
+# Ignore Packages directory
+/Packages/manifest.json
+/Packages/packagelist.json
+
+# Ignore User-specific files
+/Assets/AssetStoreTools
+/Assets/StreamingAssets/
+/Assets/**/*.meta
+/[Bb]uilds/**
+
+# Ignore files related to the Unity Hub
+[Uu]nityPackageManager/
+
+# Ignore Unity auto-generated files
+*.pidb
+*.opendb
+
+# Ignore any system or hidden files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
